@@ -2,6 +2,7 @@
   "name": "playwright-cron-rpa",
   "packageManager": "yarn@3.2.0",
   "scripts": {
+    "start": "yarn node --loader ts-node/esm ./src/index.ts",
     "rpa": "yarn playwright test --headed",
     "rpa:record": "yarn playwright codegen"
   },
@@ -13,7 +14,6 @@
   },
   "dependencies": {
     "@types/node-cron": "^3.0.1",
-    "child-process": "^1.0.2",
     "node-cron": "^3.0.0",
     "typescript": "^4.6.3"
   }

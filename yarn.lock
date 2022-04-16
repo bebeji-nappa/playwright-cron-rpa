@@ -911,13 +911,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"child-process@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "child-process@npm:1.0.2"
-  checksum: dfbce629d6e660d2beab0e31b6ed049f5c8795539175b8568d4c4d636202b5dbc79282b2253be5610f9612ef459390dde76f172d8ef31d57965a6148d0a5cd1f
-  languageName: node
-  linkType: hard
-
 "color-convert@npm:^1.9.0":
   version: 1.9.3
   resolution: "color-convert@npm:1.9.3"
@@ -1611,7 +1604,6 @@ __metadata:
     "@playwright/test": ^1.21.0
     "@types/node": ^17.0.24
     "@types/node-cron": ^3.0.1
-    child-process: ^1.0.2
     dotenv: ^16.0.0
     node-cron: ^3.0.0
     ts-node: ^10.7.0
